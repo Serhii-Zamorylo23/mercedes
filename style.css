@@ -1,0 +1,73 @@
+.header {
+  background: black;
+  width: 100%;
+  height: 160px;
+}
+.header_nav1 {
+  display: flex;
+  align-items: center;
+  width: 1306.5px;
+  height: 50%;
+  background: darkmagenta;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.header_nav1_logo-div {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  width: 194px;
+  height: 64px;
+}
+.header_nav1_logo-div_text {
+  color: #c0c0c0;
+}
+.header_nav1_search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background: firebrick;
+}
+.header_nav1_search_input {
+  width: 260px;
+  height: 48px;
+  text-align: center;
+}
+.header_nav2 {
+  width: 1306.5px;
+  height: 50%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  -moz-column-gap: 38px;
+       column-gap: 38px;
+}
+.header_nav2_link {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 1053px;
+  background: firebrick;
+  height: 703px;
+  margin: 0 auto;
+}
+.main_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 703px;
+  width: 336.63px;
+  height: 336px;
+  background: darkgoldenrod;
+}
+.main_card_name {
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
