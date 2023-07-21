@@ -8,7 +8,6 @@
   align-items: center;
   width: 1306.5px;
   height: 50%;
-  background: darkmagenta;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -28,7 +27,6 @@
   display: flex;
   align-items: center;
   height: 64px;
-  background: firebrick;
 }
 .header_nav1_search_input {
   width: 260px;
@@ -48,6 +46,12 @@
   text-decoration: none;
   color: white;
 }
+.header_nav2_link:hover {
+  transform: scale(2);
+  color: #800000;
+  transition-duration: 0.5s;
+  margin: 35px;
+}
 
 .main {
   display: flex;
@@ -55,7 +59,6 @@
   -moz-column-gap: 20px;
        column-gap: 20px;
   width: 1053px;
-  background: firebrick;
   height: 703px;
   margin: 0 auto;
 }
@@ -66,8 +69,46 @@
   height: 703px;
   width: 336.63px;
   height: 336px;
-  background: darkgoldenrod;
 }
 .main_card_name {
   font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: black;
+  margin-top: 62px;
+  height: 396px;
+}
+.footer_wrapper {
+  display: flex;
+  height: 217px;
+  width: 1180px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.footer_wrapper_item {
+  width: 218px;
+}
+.footer_wrapper_item_name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer_wrapper_item_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+  margin-top: 24px;
+}
+.footer_wrapper_item_list_title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.last {
+  width: 190px;
 }/*# sourceMappingURL=style.css.map */

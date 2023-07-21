@@ -7,7 +7,6 @@
         align-items: center;
         width: 1306.5px;
         height: 50%;
-        background: darkmagenta;
         justify-content: space-between;
         margin: 0 auto;
         &_logo-div{
@@ -25,7 +24,6 @@
             display: flex;
             align-items: center;;
             height: 64px;
-            background: firebrick;
             &_input{
                 width: 260px;
                 height: 48px;
@@ -43,6 +41,12 @@
         &_link{
             text-decoration: none;
             color: white;
+            &:hover{
+                transform: scale(2);
+                color: #800000;
+                transition-duration: 0.5s;
+                margin: 35px;
+            }
         }
     }
 }
@@ -51,7 +55,6 @@
     flex-wrap: wrap;
     column-gap: 20px;
     width: 1053px;
-    background: firebrick;
     height: 703px;
     margin: 0 auto;
     &_card{
@@ -61,9 +64,45 @@
         height: 703px;
         width: 336.63px;
         height: 336px;
-        background: darkgoldenrod;
         &_name{
             font-weight: 700
         }
     }
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+    margin-top: 62px;
+    height: 396px;
+    &_wrapper{
+        display: flex;
+        height: 217px;
+        width: 1180px;
+        justify-content: space-between;
+        margin:  0 auto;
+        &_item{
+            width: 218px;
+            &_name{
+                font-size: 20px;
+                font-weight: 600;
+                color: #fff;
+            }
+            &_list{
+                display: flex;
+                flex-direction: column;
+                row-gap: 11px;
+                margin-top: 24px;
+                &_title{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.last{
+    width: 190px;
 }
