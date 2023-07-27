@@ -19,6 +19,12 @@
             width: 425px;
             row-gap: 31px;
             overflow: scroll;
+            &_link{
+                :hover{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
         }
     }
     .main{
@@ -67,6 +73,10 @@
             display: flex;
             flex-direction: column;
             row-gap: 31px;
+            :hover{
+                text-decoration: none;
+                color: white;
+            }
         }
     }
     .main{

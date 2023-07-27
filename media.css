@@ -21,6 +21,10 @@
     row-gap: 31px;
     overflow: scroll;
   }
+  .header_nav2_link :hover {
+    text-decoration: none;
+    color: white;
+  }
   .main {
     width: 100%;
     align-items: center;
@@ -68,6 +72,10 @@
     display: flex;
     flex-direction: column;
     row-gap: 31px;
+  }
+  .header_nav2 :hover {
+    text-decoration: none;
+    color: white;
   }
   .main {
     width: 100%;
