@@ -46,6 +46,7 @@
 .header_nav2_link {
   text-decoration: none;
   color: white;
+  transition-duration: 0.3s;
 }
 .header_nav2_link:hover {
   transform: scale(2);

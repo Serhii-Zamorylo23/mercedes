@@ -41,6 +41,7 @@
         &_link{
             text-decoration: none;
             color: white;
+            transition-duration: 0.3s;
             &:hover{
                 transform: scale(2);
                 color: #800000;
